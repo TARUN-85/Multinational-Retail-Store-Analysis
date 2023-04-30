@@ -10,45 +10,26 @@ After that i have provided Businees Insight from Graphical & Non-Graphical which
 in the end i have provided Recommendation which can be used to increase Sale for Particular Gender,Age group , Marital Status
 
 
-Business Problem
+Data Analysis of "Multinational-Retail-Store-Analysis"
 
-The Management team at Retail Store  wants to analyze the customer purchase behavior (specifically, purchase amount) 
-against the customer’s gender and the various other factors to help the business make better decisions.
-They want to understand if the spending habits differ between male and female customers: Do women spend more on Black Friday than men? 
-(Assume 50 million customers are male and 50 million are female).
+This is Analysis of Multinational Retail Store using Python & its library (Pandas, Numpy, Seaborn , Matplotlib, scipy).
 
-User_ID:	User ID
-Product_ID:	Product ID
-Gender:	Sex of User
-Age:	Age in bins
-Occupation:	Occupation(Masked)
-City_Category:	Category of the City (A,B,C)
-StayInCurrentCityYears:	Number of years stay in current city
-Marital_Status:	Marital Status
-ProductCategory:	Product Category (Masked)
-Purchase:	Purchase Amount
+👉 The following were the steps followed:-
 
-Defining Problem Statement and Analyzing basic metrics.
-Observations on shape of data, data types of all the attributes, conversion of categorical attributes to 'category' (If required), statistical summary
-Non-Graphical Analysis: Value counts and unique attributes ​
-Visual Analysis - Univariate & Bivariate
-For continuous variable(s): Distplot, countplot, histogram for univariate analysis
-For categorical variable(s): Boxplot
-For correlation: Heatmaps, Pairplots
-Missing Value & Outlier Detection 
-Business Insights based on Non- Graphical and Visual Analysis
-Comments on the range of attributes
-Comments on the distribution of the variables and relationship between them
-Comments for each univariate and bivariate plot
-Answering questions
-Are women spending more money per transaction than men? Why or Why not?
-Confidence intervals and distribution of the mean of the expenses by female and male customers 
-Are confidence intervals of average male and female spending overlapping? How can Walmart leverage this conclusion to make changes or improvements?
-Results when the same activity is performed for Married vs Unmarried 
-Results when the same activity is performed for Age 
-Final Insights - Illustrate the insights based on exploration and CLT
-Comments on the distribution of the variables and relationship between them
-Comments for each univariate and bivariate plots
-Comments on different variables when generalizing it for Population
-Recommendations 
-Actionable items for business. No technical jargon. No complications. Simple action items that everyone can understand
+1️⃣ Business Problem: The Management team at Retail Store wants to analyze the customer purchase behavior (specifically, purchase amount) against the customer’s gender and the various other factors to help the business make better decisions. They want to understand if the spending habits differ between male and female customers: Do women spend more on Black Friday than men? (Assume 50 million customers are male and 50 million are female).
+
+2️⃣ Defining Problem Statement and Analyzing basic metrics: Observations on shape of data, data types of all the attributes, conversion of categorical attributes to 'category' (If required), statistical summary Non-Graphical Analysis: Value counts and unique attributes.
+
+3️⃣ ​Visual Analysis - Univariate & Bivariate For continuous variable(s): Distplot, countplot, histogram for univariate analysis For categorical variable(s).
+
+ 4️⃣ Boxplot For correlation: Heatmaps, Pairplots Missing Value & Outlier.
+
+ 5️⃣ Detection Business Insights based on Non- Graphical and Visual Analysis Commented on the range of attributes, Commented on the distribution of the variables and relationship between them Commented for each univariate and bivariate plot Answered questions such as:
+
+Are women spending more money per transaction than men? Why or Why not? 
+
+6️⃣ Confidence intervals and distribution of the mean of the expenses by female and male customers Are confidence intervals of average male and female spending overlapping? How can Company leverage this conclusion to make changes or improvements? Results when the same activity is performed for Married vs Unmarried Results when the same activity is performed for Age.
+
+7️⃣ Final Insights - Illustrated the insights based on exploration and CLT Commented on the distribution of the variables and relationship between them Commented for each univariate and bivariate plots Commented on different variables when generalizing it for Population Recommendations.
+
+8️⃣ Actionable items for business. (No technical jargon. No complications. Simple actionable items that everyone can understand)
